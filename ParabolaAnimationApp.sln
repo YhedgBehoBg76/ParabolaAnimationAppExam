@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParabolaAnimationApp", "ParabolaAnimationApp.csproj", "{E39D965E-7B7C-4B8D-88CC-54DE39D082D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+	ProjectSection(SolutionItems) = preProject
+		LaunchRecord.cs = LaunchRecord.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{6EB749FB-262F-4FE4-8448-703332D6FCCE}"
+	ProjectSection(SolutionItems) = preProject
+		MainViewModel.cs = MainViewModel.cs
+		MainWindow.xaml.cs = MainWindow.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{92032342-1A66-4F1F-A416-1F542365F9EF}"
+	ProjectSection(SolutionItems) = preProject
+		AppDbContext.cs = AppDbContext.cs
+		ILaunchDatabase.cs = ILaunchDatabase.cs
+		LaunchDatabase.cs = LaunchDatabase.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{48E69569-5522-4E3C-81B9-05EEBA05CB68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{E607A7D6-BFD4-4409-88EB-51C086BFC02F}"
+	ProjectSection(SolutionItems) = preProject
+		RelayCommand.cs = RelayCommand.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{805F2061-E470-4D74-8683-673903F15C62}"
+	ProjectSection(SolutionItems) = preProject
+		MainWindow.xaml = MainWindow.xaml
+		MainWindow.xaml.cs = MainWindow.xaml.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E39D965E-7B7C-4B8D-88CC-54DE39D082D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39D965E-7B7C-4B8D-88CC-54DE39D082D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39D965E-7B7C-4B8D-88CC-54DE39D082D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39D965E-7B7C-4B8D-88CC-54DE39D082D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E607A7D6-BFD4-4409-88EB-51C086BFC02F} = {6EB749FB-262F-4FE4-8448-703332D6FCCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34D9CAB9-ACEC-415D-B581-51BF028F3438}
+	EndGlobalSection
+EndGlobal
